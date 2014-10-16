@@ -10,4 +10,6 @@
 
 @interface ToothpastesTableViewController : UITableViewController
 
+- (NSString *)adoredToothpaste;
+
 @end

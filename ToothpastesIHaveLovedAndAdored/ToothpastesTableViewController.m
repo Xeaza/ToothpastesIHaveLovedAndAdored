@@ -28,19 +28,25 @@
     }];
 }
 
+- (NSString *)adoredToothpaste
+{
+    NSInteger row = self.tableView.indexPathForSelectedRow.row;
+    return [self.toothpastes objectAtIndex:row];
+}
+
 
 #pragma mark - Table view data source
 
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    // Return the number of rows in the section.
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+{
     return self.toothpastes.count;
 }
 
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-    
     cell.textLabel.text = [self.toothpastes objectAtIndex:indexPath.row];
     
     return cell;
