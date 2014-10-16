@@ -36,11 +36,43 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Adored Toothpaste" id="ePa-Wl-j02"/>
+                    <navigationItem key="navigationItem" title="Adored Toothpaste" id="ePa-Wl-j02">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="SQG-gd-8ub">
+                            <connections>
+                                <segue destination="YVD-nr-hzu" kind="show" id="FcN-0b-5uH"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1125" y="1050"/>
+        </scene>
+        <!--Toothpastes Table View Controller-->
+        <scene sceneID="s03-sF-2jl">
+            <objects>
+                <tableViewController id="YVD-nr-hzu" customClass="ToothpastesTableViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="a9g-Ff-DNG">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="Cell" id="nIr-rS-K6S">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="nIr-rS-K6S" id="kaR-DM-ttw">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="YVD-nr-hzu" id="OOA-y4-RN0"/>
+                            <outlet property="delegate" destination="YVD-nr-hzu" id="RXP-LP-csJ"/>
+                        </connections>
+                    </tableView>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GwA-tL-JFx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1788" y="1050"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="QAM-ba-c2x">
