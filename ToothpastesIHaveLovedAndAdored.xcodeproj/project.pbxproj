@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		345ED5EA19F020B0007C8AA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 345ED5E919F020B0007C8AA6 /* main.m */; };
 		345ED5ED19F020B0007C8AA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 345ED5EC19F020B0007C8AA6 /* AppDelegate.m */; };
-		345ED5F019F020B0007C8AA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345ED5EF19F020B0007C8AA6 /* ViewController.m */; };
+		345ED5F019F020B0007C8AA6 /* AdoredToothPasteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 345ED5EF19F020B0007C8AA6 /* AdoredToothPasteViewController.m */; };
 		345ED5F319F020B0007C8AA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 345ED5F119F020B0007C8AA6 /* Main.storyboard */; };
 		345ED5F519F020B0007C8AA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 345ED5F419F020B0007C8AA6 /* Images.xcassets */; };
 		345ED5F819F020B0007C8AA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 345ED5F619F020B0007C8AA6 /* LaunchScreen.xib */; };
@@ -32,8 +32,8 @@
 		345ED5E919F020B0007C8AA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		345ED5EB19F020B0007C8AA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		345ED5EC19F020B0007C8AA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		345ED5EE19F020B0007C8AA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		345ED5EF19F020B0007C8AA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		345ED5EE19F020B0007C8AA6 /* AdoredToothPasteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdoredToothPasteViewController.h; sourceTree = "<group>"; };
+		345ED5EF19F020B0007C8AA6 /* AdoredToothPasteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AdoredToothPasteViewController.m; sourceTree = "<group>"; };
 		345ED5F219F020B0007C8AA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		345ED5F419F020B0007C8AA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		345ED5F719F020B0007C8AA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,8 +83,8 @@
 			children = (
 				345ED5EB19F020B0007C8AA6 /* AppDelegate.h */,
 				345ED5EC19F020B0007C8AA6 /* AppDelegate.m */,
-				345ED5EE19F020B0007C8AA6 /* ViewController.h */,
-				345ED5EF19F020B0007C8AA6 /* ViewController.m */,
+				345ED5EE19F020B0007C8AA6 /* AdoredToothPasteViewController.h */,
+				345ED5EF19F020B0007C8AA6 /* AdoredToothPasteViewController.m */,
 				345ED5F119F020B0007C8AA6 /* Main.storyboard */,
 				345ED5F419F020B0007C8AA6 /* Images.xcassets */,
 				345ED5F619F020B0007C8AA6 /* LaunchScreen.xib */,
@@ -219,7 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				345ED5F019F020B0007C8AA6 /* ViewController.m in Sources */,
+				345ED5F019F020B0007C8AA6 /* AdoredToothPasteViewController.m in Sources */,
 				345ED5ED19F020B0007C8AA6 /* AppDelegate.m in Sources */,
 				345ED5EA19F020B0007C8AA6 /* main.m in Sources */,
 			);
